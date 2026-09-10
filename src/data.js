@@ -28,19 +28,275 @@ export const seed = {
   ],
   "photos": [
     {
-      "id": "dinner",
-      "src": "/Populus-site/images/dinner.jpg",
-      "caption": "厚含书院高桌晚宴的一刻",
-      "alt": "身穿深蓝色西装站在暖木色室内栏杆旁",
-      "category": "校园",
+      "id": "stage",
+      "src": "/Populus-site/images/moments-stage.webp",
+      "caption": "霍格沃茨之夜 · 主持现场",
+      "alt": "穿蓝色西装，手持麦克风和讲稿主持厚含书院霍格沃茨之夜",
+      "category": "舞台",
+      "visible": true
+    },
+    {
+      "id": "campus-host",
+      "src": "/Populus-site/images/moments-campus-host.webp",
+      "caption": "在校园里，拿起麦克风",
+      "alt": "穿白橙色上衣，拿着话筒和手卡主持校园活动",
+      "category": "舞台",
+      "visible": true
+    },
+    {
+      "id": "anniversary-moon",
+      "src": "/Populus-site/images/moments-anniversary-moon.webp",
+      "caption": "厚含书院周年庆 · 走秀现场",
+      "alt": "身穿黑色中式长衫，在月亮与山景布置的舞台上走秀",
+      "category": "舞台",
+      "visible": true
+    },
+    {
+      "id": "anniversary-bamboo",
+      "src": "/Populus-site/images/moments-anniversary-bamboo.webp",
+      "caption": "厚含书院周年庆 · 幕后留影",
+      "alt": "身穿竹叶刺绣中式服装，在黑色帷幕前留影",
+      "category": "舞台",
       "visible": true
     },
     {
       "id": "campus",
-      "src": "/Populus-site/images/campus.jpg",
+      "src": "/Populus-site/images/moments-campus.webp",
       "caption": "校园里的日常",
-      "alt": "身穿院服站在蓝色栏杆旁",
+      "alt": "身穿白灰色院服，站在蓝色栏杆旁",
       "category": "校园",
+      "visible": true
+    },
+    {
+      "id": "campus-smile",
+      "src": "/Populus-site/images/moments-campus-smile.webp",
+      "caption": "校园里，笑得很开心",
+      "alt": "穿着红色卫衣，在校园走廊里微笑",
+      "category": "校园",
+      "visible": true
+    },
+    {
+      "id": "campus-tea",
+      "src": "/Populus-site/images/moments-campus-tea.webp",
+      "caption": "奶茶在手，慢慢走",
+      "alt": "穿着红色卫衣，拿着奶茶和手机走过校门",
+      "category": "校园",
+      "visible": true
+    },
+    {
+      "id": "campus-wall",
+      "src": "/Populus-site/images/moments-campus-wall.webp",
+      "caption": "课余的一刻",
+      "alt": "穿着 Minerva 院服，靠在墙边低头",
+      "category": "校园",
+      "visible": true
+    },
+    {
+      "id": "campus-display",
+      "src": "/Populus-site/images/moments-campus-display.webp",
+      "caption": "和招生宣传展板合个影",
+      "alt": "站在印有个人照片与专业信息的校园宣传展板前",
+      "category": "校园",
+      "visible": true
+    },
+    {
+      "id": "movie-street",
+      "src": "/Populus-site/images/moments-movie-street.webp",
+      "caption": "停在一扇蓝色橱窗前",
+      "alt": "穿黑色长外套，站在电影主题街区的蓝色店铺前",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "movie-castle",
+      "src": "/Populus-site/images/moments-movie-castle.webp",
+      "caption": "去电影里的世界看看",
+      "alt": "穿着冬装，在电影主题城堡前自拍",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "caricature",
+      "src": "/Populus-site/images/moments-caricature.webp",
+      "caption": "和另一种画风的自己合影",
+      "alt": "围着围巾，手拿街头画师绘制的漫画像",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "personal-camera",
+      "src": "/Populus-site/images/moments-personal-camera.webp",
+      "caption": "我的个人记录，从取景开始",
+      "alt": "手持口袋云台相机，拍摄主题街区的橱窗",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "castle-evening",
+      "src": "/Populus-site/images/moments-castle-evening.webp",
+      "caption": "把童话留在镜头里",
+      "alt": "夕阳下，在城堡前拍照",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "city-architecture",
+      "src": "/Populus-site/images/moments-city-architecture.webp",
+      "caption": "在城市里走走",
+      "alt": "戴着墨镜，站在尖顶建筑前",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "window-light",
+      "src": "/Populus-site/images/moments-window-light.webp",
+      "caption": "窗边的光",
+      "alt": "穿着白色上衣，站在花鸟装饰墙与木窗旁",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "museum-sky",
+      "src": "/Populus-site/images/moments-museum-sky.webp",
+      "caption": "博物馆前的蓝天",
+      "alt": "背着包站在博物馆广场上，抬头望向建筑",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "tsinghua-visit",
+      "src": "/Populus-site/images/moments-tsinghua-visit.webp",
+      "caption": "旅行途中，探访清华园",
+      "alt": "戴着毛线帽与眼镜，在清华园牌坊前自拍",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "movie-rest",
+      "src": "/Populus-site/images/moments-movie-rest.webp",
+      "caption": "逛累了，休息一会儿",
+      "alt": "在小黄人雕像旁坐下，手里拿着口袋相机",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "museum-day",
+      "src": "/Populus-site/images/moments-museum-day.webp",
+      "caption": "博物馆前，留一张合影",
+      "alt": "两张冬日自拍拼图，背景为博物馆建筑",
+      "category": "旅行",
+      "visible": true
+    },
+    {
+      "id": "beach-sunset",
+      "src": "/Populus-site/images/moments-beach-sunset.webp",
+      "caption": "在落日里回头",
+      "alt": "穿粉色印花衬衫，背着夕阳回头看向远处",
+      "category": "海边",
+      "visible": true
+    },
+    {
+      "id": "beach-sand",
+      "src": "/Populus-site/images/moments-beach-sand.webp",
+      "caption": "捧一把沙，等一场日落",
+      "alt": "穿着粉色印花衬衫，在海滩上蹲下捧起沙子",
+      "category": "海边",
+      "visible": true
+    },
+    {
+      "id": "beach-silhouette",
+      "src": "/Populus-site/images/moments-beach-silhouette.webp",
+      "caption": "日落把人变成剪影",
+      "alt": "海边日落中，举起透明瓶子的侧脸剪影",
+      "category": "海边",
+      "visible": true
+    },
+    {
+      "id": "dinner",
+      "src": "/Populus-site/images/moments-dinner.webp",
+      "caption": "厚含书院高桌晚宴的一刻",
+      "alt": "身穿蓝色西装，倚在暖木色厅堂的栏杆旁",
+      "category": "写真",
+      "visible": true
+    },
+    {
+      "id": "evening-light",
+      "src": "/Populus-site/images/moments-evening-light.webp",
+      "caption": "暖灯下的一刻",
+      "alt": "身穿蓝色西装，站在木色墙面与壁灯旁",
+      "category": "写真",
+      "visible": true
+    },
+    {
+      "id": "evening-painting",
+      "src": "/Populus-site/images/moments-evening-painting.webp",
+      "caption": "画框下，暂停一会儿",
+      "alt": "穿蓝色西装，坐在暖色厅堂的画框下",
+      "category": "写真",
+      "visible": true
+    },
+    {
+      "id": "palace-portrait",
+      "src": "/Populus-site/images/moments-palace-portrait.webp",
+      "caption": "换一种装束，走进旧时光",
+      "alt": "身穿红色传统服装，坐在宫殿庭院的石栏旁",
+      "category": "写真",
+      "visible": true
+    },
+    {
+      "id": "palace-fan",
+      "src": "/Populus-site/images/moments-palace-fan.webp",
+      "caption": "扇面与檐下的光",
+      "alt": "身穿红色传统服装，手持山水折扇站在宫殿前",
+      "category": "写真",
+      "visible": true
+    },
+    {
+      "id": "game-season",
+      "src": "/Populus-site/images/moments-game-season.webp",
+      "caption": "王者荣耀 · 一次赛季记录",
+      "alt": "游戏截图：S41 赛季 107 星、巅峰积分 2066 及英雄称号",
+      "category": "兴趣",
+      "visible": true
+    },
+    {
+      "id": "campus-esports",
+      "src": "/Populus-site/images/moments-campus-esports.webp",
+      "caption": "南北绿豆 · 高校赛亚军",
+      "alt": "王者荣耀高校 5v5 深圳港中深站比赛结果，南北绿豆战队获得亚军",
+      "category": "兴趣",
+      "visible": true
+    },
+    {
+      "id": "mahjong",
+      "src": "/Populus-site/images/moments-mahjong.webp",
+      "caption": "和朋友的麻将时刻",
+      "alt": "绿色桌面上排列着一副条子麻将牌",
+      "category": "兴趣",
+      "visible": true
+    },
+    {
+      "id": "admissions-award",
+      "src": "/Populus-site/images/moments-admissions-award.webp",
+      "caption": "2024–2025 · 招生办优秀学生助理",
+      "alt": "香港中文大学（深圳）招生办优秀学生助理证书，获奖人胡杨赫俊",
+      "category": "荣誉",
+      "visible": true
+    },
+    {
+      "id": "service-award",
+      "src": "/Populus-site/images/moments-service-award.webp",
+      "caption": "2025–2026 · 厚德服务奖",
+      "alt": "厚含书院颁发给胡杨赫俊的厚德服务奖奖牌",
+      "category": "荣誉",
+      "visible": true
+    },
+    {
+      "id": "childhood",
+      "src": "/Populus-site/images/moments-childhood.webp",
+      "caption": "小时候的我",
+      "alt": "童年时期，穿着黑色小西装坐在钢琴旁",
+      "category": "成长",
       "visible": true
     },
     {
@@ -49,14 +305,6 @@ export const seed = {
       "caption": "镜头之外，也记录日常",
       "alt": "暖色影院走廊中上下排列的两张照片",
       "category": "日常",
-      "visible": true
-    },
-    {
-      "id": "stage",
-      "src": "/Populus-site/images/stage.webp",
-      "caption": "在校园里，拿起麦克风",
-      "alt": "校园活动中手持麦克风和讲稿",
-      "category": "表达",
       "visible": true
     }
   ],
@@ -76,7 +324,7 @@ export const seed = {
       "summary": "从毕业典礼到书院迎新，\n在舞台上认真准备，也认真倾听。",
       "role": "厚含主持人团队 · 主持与表达",
       "body": "## 站上舞台之前\n\n我是厚含书院主持人团队的一员。主持需要熟悉活动内容和流程，也需要考虑台下的人如何理解接下来的环节。\n\n## 参与过的现场\n\n- 2025 年数据科学学院本科生毕业典礼与教授年会。\n- 丘成桐教授《大宇之行》读者见面会。\n- 厚含书院霍格沃兹之夜圣诞活动与 EPC 破冰活动。\n- 2026 年厚含书院迎新典礼。\n\n## 我在其中的角色\n\n准备主持内容、衔接活动环节、与现场团队配合。不同场合有不同的表达方式：正式活动需要准确与节奏，迎新活动也需要让人放松、愿意参与。",
-      "image": "/Populus-site/images/stage.webp"
+      "image": "/Populus-site/images/moments-stage.webp"
     },
     {
       "id": "market-modeling",
@@ -100,7 +348,7 @@ export const seed = {
       "title": "让一场校园活动顺利发生",
       "summary": "从外联与内容策划，到体育活动的组织协调，参与台前之外的工作。",
       "role": "书院宿生会外联部 · 体育协会 · 羽毛球社团",
-      "body": "## 策划与资源协调\n\n担任厚含书院宿生会外联部副部长期间，我参与冬日奇幻小镇、湖畔音乐节等活动的策划，负责对外联络与资源协调，也参与官方视频号和小红书的内容策划、拍摄与运营。\n\n## 体育活动的另一面\n\n在书院体育协会和校羽毛球社团工作时，我参与招新开放日、院队事务协调、新生杯及体育节羽毛球赛的组织，并统筹周常约球、训练班等活动。\n\n## 从一群人到一件事\n\n这些经历让我接触不同的团队和角色：把信息传达到位、安排好日程、让参与者知道下一步要做什么，是活动顺利推进的基础。"
+      "body": "## 策划与资源协调\n\n担任厚含书院宿生会外联部副部长期间，我参与冬日奇幻小镇、湖畔音乐节等活动的策划，负责对外联络与资源协调，也参与官方视频号和小红书的内容策划、拍摄与运营。\n\n## 体育活动的另一面\n\n在书院体育协会和校羽毛球社团工作时，我参与招新开放日、院队事务协调、新生杯及体育节羽毛球赛的组织，并统筹周常约球、训练班等活动。\n\n## 从一群人到一件事\n\n这些经历让我接触不同的团队和角色：把信息传达到位、安排好日程、让参与者知道下一步要做什么，是活动顺利推进的基础。\n\n## 也走上舞台\n\n在厚含书院一周年庆与二周年庆的走秀活动中，我担任模特。从活动组织到亲身参与，也体验了舞台上不同的角色。"
     },
     {
       "id": "peer-support",
@@ -108,7 +356,7 @@ export const seed = {
       "title": "陪新同学，慢慢熟悉校园",
       "summary": "从课程复习分享到入学适应与校园导览，把熟悉的经验讲给需要的人。",
       "role": "朋辈导师 · EPC 带班班长 · 校园向导",
-      "body": "## 学习上的支持\n\n在数据科学学院学生会学术部，我主讲过微积分、线性代数期中复习讲座，并参与学术讨论和师生交流活动。\n\n## 进入大学的第一段路\n\n作为学院朋辈导师团队成员和 EPC 带班班长，我为新生提供选课、校园生活与学习资源方面的帮助，也协助组织团建和日常联络。\n\n## 带大家认识校园\n\n作为校园向导团队骨干，我参与过大型参观接待和带队工作。相关服务经历获得优秀学生助理与朋辈辅导方面的认可。"
+      "body": "## 学习上的支持\n\n在数据科学学院学生会学术部，我主讲过微积分、线性代数期中复习讲座，并参与学术讨论和师生交流活动。\n\n## 进入大学的第一段路\n\n作为学院朋辈导师团队成员和 EPC 带班班长，我为新生提供选课、校园生活与学习资源方面的帮助，也协助组织团建和日常联络。\n\n## 带大家认识校园\n\n作为校园向导团队骨干，我参与过大型参观接待和带队工作。相关服务经历获得优秀学生助理与朋辈辅导方面的认可。\n\n## 留下的认可\n\n- 2024–2025 学年招生办优秀学生助理。\n- 2025–2026 学年厚含书院厚德服务奖。"
     },
     {
       "id": "content-operations",
